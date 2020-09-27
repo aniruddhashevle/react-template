@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-context",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "public": true,
   "main": "template.json",
   "keywords": [
@@ -41,6 +41,7 @@
     "lint": "eslint --no-error-on-unmatched-pattern src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --no-error-on-unmatched-pattern --fix src/**/*.{js,ts,tsx}",
     "storybook": "start-storybook",
+    "release": "standard-version",
     "clean-files": "rm -rf ./template/public ./template/src",
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
     "prepublishOnly": "npm run clean-files && npm run copy-files"
@@ -78,6 +79,7 @@
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "react-docgen-typescript-loader": "^3.7.2",
+    "standard-version": "^9.0.0",
     "ts-jest": "^26.1.2",
     "ts-loader": "^8.0.0"
   }

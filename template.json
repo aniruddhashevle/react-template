@@ -11,24 +11,7 @@
       "react-scripts": "3.4.1",
       "redux": "^4.0.5",
       "redux-thunk": "^2.3.0",
-      "typescript": "^3.9.6"
-   },
-    "scripts": {
-      "lint": "eslint --no-error-on-unmatched-pattern src/**/*.{js,jsx,ts,tsx}",
-      "lint:fix": "eslint --no-error-on-unmatched-pattern --fix src/**/*.{js,ts,tsx}",
-      "storybook": "start-storybook"
-    },
-    "husky": {
-      "hooks": {
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
-    },
-    "lint-staged": {
-      "*.{js,ts,tsx}": [
-        "eslint --fix"
-      ]
-    },
-    "devDependencies": {
+      "typescript": "^3.9.6",
       "@commitlint/cli": "^9.1.1",
       "@commitlint/config-conventional": "^9.1.1",
       "@storybook/addon-info": "^5.3.19",
@@ -41,5 +24,21 @@
       "react-docgen-typescript-loader": "^3.7.2",
       "ts-jest": "^26.1.2",
       "ts-loader": "^8.0.0"
+   },
+    "scripts": {
+      "lint": "eslint --no-error-on-unmatched-pattern src/**/*.{js,jsx,ts,tsx}",
+      "lint:fix": "eslint --no-error-on-unmatched-pattern --fix src/**/*.{js,ts,tsx}",
+      "release": "standard-version",
+      "storybook": "start-storybook"
+    },
+    "husky": {
+      "hooks": {
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
+    },
+    "lint-staged": {
+      "*.{js,ts,tsx}": [
+        "eslint --fix"
+      ]
     }
    }
