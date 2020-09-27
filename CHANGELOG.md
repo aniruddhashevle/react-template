@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/sumitnitsurat/react-template/compare/v0.1.6...v0.1.7) (2020-09-27)
+
+
+### Bug Fixes
+
+* format script added ([ae8028d](https://github.com/sumitnitsurat/react-template/commit/ae8028d49f3c8e517a747d8d2002b13fce75bda4))
+
 ### [0.1.6](https://github.com/sumitnitsurat/react-template/compare/v0.1.5...v0.1.6) (2020-09-27)
 
 
