@@ -2,11 +2,11 @@ import React, {Suspense} from 'react';
 import './index.css';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 
-const Home = React.lazy(() => import('./components/Home'));
-const About = React.lazy(() => import('./components/About'));
+const Home = React.lazy(() => import('./Home'));
+const About = React.lazy(() => import('./About'));
 
 
-export const Routes = () => (
+export const Routes = (): ReactElement => (
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
       <Route exact path="/" component={Home} />

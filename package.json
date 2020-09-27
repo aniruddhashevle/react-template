@@ -1,7 +1,7 @@
 {
-  "name": "cra-template-typescript-redux",
-  "version": "0.1.0",
-  "private": true,
+  "name": "cra-template-typescript-context",
+  "version": "0.1.1",
+  "public": true,
   "main": "template.json",
   "keywords": [
     "react",
@@ -36,7 +36,10 @@
     "format": "prettier --write src/**/*.{js,ts,tsx}",
     "lint": "eslint --no-error-on-unmatched-pattern src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --no-error-on-unmatched-pattern --fix src/**/*.{js,ts,tsx}",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "clean-files": "rm -rf ./template/public ./template/src",
+    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
+    "prepublishOnly": "npm run clean-files && npm run copy-files"
   },
   "husky": {
     "hooks": {
