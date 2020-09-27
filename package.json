@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-context",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "public": true,
   "main": "template.json",
   "keywords": [
@@ -41,7 +41,8 @@
     "lint:fix": "eslint --no-error-on-unmatched-pattern --fix src/**/*.{js,ts,tsx}",
     "storybook": "start-storybook",
     "release": "standard-version",
-    "clean-files": "rm -rf ./template/public ./template/src && rm -f .eslintrc.js",
+    "release:tag": "git push --follow-tags origin master",
+    "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintrc.js",
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp -a .eslintrc.js template/",
     "prepublishOnly": "npm run clean-files && npm run copy-files"
   },
