@@ -42,8 +42,8 @@
     "storybook": "start-storybook",
     "release": "standard-version",
     "release:tag": "git push --follow-tags origin master",
-    "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintrc.js",
-    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp -a .eslintrc.js template/",
+    "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintrc.js && rm -f ./template/commitlint.config.js",
+    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp -a .eslintrc.js template/ && cp -a commitlint.config.js template/",
     "prepublishOnly": "npm run clean-files && npm run copy-files"
   },
   "husky": {
@@ -77,8 +77,8 @@
     "@types/jest": "^26.0.4",
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^5.1.5",
-    "@typescript-eslint/eslint-plugin": "^4.1.0",
-    "@typescript-eslint/parser": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
