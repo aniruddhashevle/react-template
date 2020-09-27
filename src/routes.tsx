@@ -1,10 +1,9 @@
-import React, {Suspense} from 'react';
-import './index.css';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import React, { Suspense, ReactElement } from "react";
+import "./index.css";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 
-const Home = React.lazy(() => import('./Home'));
-const About = React.lazy(() => import('./About'));
-
+const Home = React.lazy(() => import("./Home"));
+const About = React.lazy(() => import("./About"));
 
 export const Routes = (): ReactElement => (
   <Router>
