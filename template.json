@@ -34,10 +34,12 @@
       "ts-loader": "^8.0.0"
    },
     "scripts": {
+      "format": "prettier --write src/**/*.{js,ts,tsx}",
       "lint": "eslint --no-error-on-unmatched-pattern src/**/*.{js,jsx,ts,tsx}",
       "lint:fix": "eslint --no-error-on-unmatched-pattern --fix src/**/*.{js,ts,tsx}",
+      "storybook": "start-storybook",
       "release": "standard-version",
-      "storybook": "start-storybook"
+      "release:tag": "git push --follow-tags origin master"
     },
     "husky": {
       "hooks": {
