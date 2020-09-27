@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-context",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "public": true,
   "main": "template.json",
   "keywords": [

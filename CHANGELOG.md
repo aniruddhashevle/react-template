@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/sumitnitsurat/react-template/compare/v0.1.7...v0.1.8) (2020-09-27)
+
+
+### Bug Fixes
+
+* eslint ([b4bda95](https://github.com/sumitnitsurat/react-template/commit/b4bda9588484ba6be4e19bc28db3a822c818773f))
+
 ### [0.1.7](https://github.com/sumitnitsurat/react-template/compare/v0.1.6...v0.1.7) (2020-09-27)
 
 
