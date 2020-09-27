@@ -1,6 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npx create-react-app your-app-name --template cra-template-typescript-context`
+### How to install
+
+    ```
+    npx create-react-app your-app-name --template cra-template-typescript-context
+    ```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
