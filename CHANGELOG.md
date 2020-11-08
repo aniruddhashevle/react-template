@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/sumitnitsurat/react-template/compare/v0.1.9...v0.1.10) (2020-11-08)
+
+
+### Features
+
+* material ui added ([63fb651](https://github.com/sumitnitsurat/react-template/commit/63fb6511ab879328155fc07a0a2f34463afaad8c))
+
 ### [0.1.9](https://github.com/sumitnitsurat/react-template/compare/v0.1.8...v0.1.9) (2020-09-27)
 
 
